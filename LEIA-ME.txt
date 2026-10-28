@@ -1,0 +1,22 @@
+LA VENTANA DE LA HAMBURGUESA — WEB + APP INSTALABLE
+
+ARCHIVOS:
+- index.html: página web (el archivo principal).
+- manifest.json: nombre, iconos y configuración para instalarla como app.
+- sw.js: permite guardar archivos básicos en caché para abrir la página con conectividad limitada.
+- icon-192.png e icon-512.png: iconos de la app.
+
+PUBLICAR GRATIS DESDE ANDROID (OPCIÓN CLOUDFLARE PAGES):
+1. Extrae este ZIP en una carpeta si la plataforma te lo pide; conserva todos los archivos juntos.
+2. Entra a https://pages.cloudflare.com/ y crea/inicia sesión en una cuenta.
+3. Crea un proyecto Pages usando la opción de cargar recursos estáticos directamente (Direct Upload).
+4. Sube la carpeta con los archivos de este paquete. El archivo principal debe llamarse index.html y quedar en la raíz, no dentro de otra carpeta.
+5. Espera la publicación y abre el enlace HTTPS que te da Cloudflare.
+6. Prueba el menú, cantidades del carrito, modo domicilio/para llevar y el envío a WhatsApp.
+7. En Android, abre el enlace en Chrome > menú ⋮ > “Instalar app” o “Añadir a pantalla principal”.
+
+IMPORTANTE:
+- El sitio usa el número de WhatsApp y los datos de negocio que ya estaban en tu HTML original. Revísalos antes de compartir.
+- Los pedidos se envían a WhatsApp; este sitio no incluye pagos en línea ni panel de administración.
+- La app instalable es una PWA: se instala desde el navegador, no es todavía una app publicada en Google Play.
+- La primera carga necesita internet. Las fuentes externas pueden no estar disponibles sin conexión.
